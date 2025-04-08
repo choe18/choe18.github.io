@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main {
+    width: 1920px;
+    height: 1080px;
+    background-color: #cee6e6;
+}
+
+.head {
+    width: 1920px;
+    height: 67px;
+    background-color: #09147A;
+}
+
+.main2 {
+    width: 1888px;
+    height: 993px;
+    background-color: #638b93;
+    border-radius: 10px;
+    margin: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.inform1 {
+    width: 1871px;
+    height: 83.664px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: %;
+}
+
+.inform2 {
+    width: 1872px;
+    height: 875px;
+    background-color: #cee5e3;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 0.8%;
+}
+
+.friendInformBox {
+    width: 278.149px;
+    height: 53.545px;
+    font-size: 55px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.chat {
+    width: 229.122px;
+    height: 53.545px;
+    font-size: 35px;
+    margin-left: 1650px;
+    margin-top: -35px;
+}
+
+.id {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.idInput {
+    width: 900px;
+    height: 80px;
+}
+
+.nickname {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.nicknameInput {
+    width: 380px;
+    height: 80px;
+}
+
+.age {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.ageInput {
+    width: 380px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+.introduction {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.introductionInput {
+    width: 1101px;
+    height: 367px;
+    margin-left: 20px;
+}
+
+.close {
+    width: 124px;
+    height: 86px;
+    background: #E3F5F9;
+    border-radius: 20px;
+    border: 1px solid #9B9B9B;
+    text-align: center;
+    line-height: 86px;
+    font-size: 45px;
+    margin-left: 1700px;
+    margin-top: 30px;
+}
+
+.rightmain {
+    width: 680px;
+    height: 724px;
+    border-radius: 10px;
+    background: #FAFAFE;
+    border: 1px solid #9B9B9B;
+    margin-left: 1150px;
+    margin-top: -720px;
+}
+
+.rightmain2 {
+    width: 629px;
+    height: 586.749px;
+    border: 1px solid #9B9B9B;
+    background: #FAFAFE;
+    margin: 0 auto;
+}
+
+.clothe {
+    width: 343px;
+    height: 86px;
+    border-radius: 20px;
+    border: 1px solid #9B9B9B;
+    background: #E3F5F9;
+    margin-top: 600px;
+    margin-left: 150px;
+    text-align: center;
+    line-height: 86px;
+    font-size: 45px;
+}
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="head"></div>
+        <div class="main2">
+            <div class="inform1">
+                <div class="friendInformBox">
+                    친구 정보
+                </div>
+                <div class="chat">
+                    쪽지 | 대화
+                </div>
+            </div>
+            <div class="inform2">
+                <div class="id">
+                    <label>아이디:</label>
+                    <input type="text" class="idInput">
+                </div>
+                <div class="nickname">
+                    <label>닉네임:</label>
+                    <input type="text" class="nicknameInput">
+                </div>
+                <div class="age">
+                    <label>나이:</label>
+                    <input type="text" class="ageInput">
+                </div>
+                <div class="introduction">
+                    <label>자기소개:</label>
+                </div>
+                <div>
+                    <input type="text" class="introductionInput">
+                </div>
+                <div class="rightmain">
+                    <div class="rightmain2">
+                        <div class="clothe">친구의상구매</div>
+                    </div>
+                </div>
+                <div class="close">닫기</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const $clothe = document.getElementsByClassName('clothe');
+        $clothe.addEventListener('click', function() {
+            alert('품절되었습니다.');
+        })
+    </script>
+</body>
+</html>
