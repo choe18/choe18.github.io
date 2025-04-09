@@ -212,9 +212,10 @@
     </div>
 
     <script>
-        document.getElementsByClassName('close').addEventListener('click', function() {
-        location.href = 'https://github.com/choe18/choe18.github.io'
-        }, false);
+    const clickable = document.querySelector('.close');
+    clickable.addEventListener('click', function () {
+      window.location.href = 'https://github.com/choe18/choe18.github.io';
+    });
     </script>
 </body>
 </html>
