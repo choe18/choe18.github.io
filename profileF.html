@@ -114,7 +114,7 @@
     border: 1px solid #9B9B9B;
     text-align: center;
     line-height: 86px;
-    font-size: 45px;
+    font-size: 35px;
     margin-left: 1700px;
     margin-top: 30px;
 }
@@ -206,16 +206,15 @@
                         <div class="clothe">친구의상구매</div>
                     </div>
                 </div>
-                <div class="close">닫기</div>
+                <div class="close">깃허브</div>
             </div>
         </div>
     </div>
 
     <script>
-        const $clothe = document.getElementsByClassName('clothe');
-        $clothe.addEventListener('click', function() {
-            alert('품절되었습니다.');
-        })
+        document.getElementsByClassName('close').addEventListener('click', function() {
+        location.href = 'https://github.com/choe18/choe18.github.io'
+        }, false);
     </script>
 </body>
 </html>
